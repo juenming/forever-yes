@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For My Favorite Person</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700&family=Manrope:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main class="app-shell">
+        <div class="glow glow-one"></div>
+        <div class="glow glow-two"></div>
+
+        <section class="card is-active" data-page="1">
+            <p class="eyebrow">Page 1 of 3</p>
+            <h1>Will you go on a date with me?</h1>
+            <p class="subtitle">I can plan the snacks, playlist, and awkwardly perfect conversation.</p>
+            <div class="button-row" data-behavior="vanish">
+                <button class="answer answer-yes" type="button" data-next="2">Yes</button>
+                <button class="answer answer-no" type="button">No</button>
+            </div>
+        </section>
+
+        <section class="card" data-page="2">
+            <p class="eyebrow">Page 2 of 3</p>
+            <h1>Will you marry me?</h1>
+            <p class="subtitle">I am very serious about building a beautiful life with you.</p>
+            <div class="button-row playground" data-behavior="runaway">
+                <button class="answer answer-yes" type="button" data-next="3">Yes</button>
+                <button class="answer answer-no is-runaway" type="button">No</button>
+            </div>
+        </section>
+
+        <section class="card" data-page="3">
+            <p class="eyebrow">Final page</p>
+            <h1>Will you love me forever?</h1>
+            <p class="subtitle">If yes, press the obvious choice. If no... the page may disagree.</p>
+            <div class="button-row button-stack" data-behavior="transform">
+                <button class="answer answer-yes is-grand" type="button" data-finish="true">Yes, forever</button>
+                <button class="answer answer-no is-shy" type="button">No</button>
+            </div>
+        </section>
+
+        <section class="card finale" data-page="4" aria-live="polite">
+            <div class="finale-sky" aria-hidden="true">
+                <span class="firework firework-a"></span>
+                <span class="firework firework-b"></span>
+                <span class="firework firework-c"></span>
+                <span class="heart heart-a">&#10084;</span>
+                <span class="heart heart-b">&#10084;</span>
+                <span class="heart heart-c">&#10084;</span>
+                <span class="heart heart-d">&#10084;</span>
+                <span class="heart heart-e">&#10084;</span>
+            </div>
+            <p class="eyebrow">Approved outcome</p>
+            <h1>You just made me the luckiest person alive.</h1>
+            <p class="love-note">Every version of my future looks brighter, softer, and sweeter with you in it.</p>
+            <div class="name-promise" aria-label="Love message">
+                <span class="name-glow"></span>
+                <span class="name-chip name-chip-top" data-name-slot="top">First Name</span>
+                <span class="name-heart-wrap">
+                    <span class="name-heart-ring"></span>
+                    <span class="name-heart" data-name-slot="heart">&#10084;</span>
+                </span>
+                <span class="name-chip name-chip-bottom" data-name-slot="bottom">Second Name</span>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
