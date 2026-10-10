@@ -27,6 +27,7 @@ GitHub Pages serves the files publicly. Anyone who can access the site can also 
 
 ## Support this project
 
+A $1 coffee keeps the fun brewing :)
 If you’d like to support the project, you can donate here:
 
 [Ko-fi](https://ko-fi.com/juenming)
