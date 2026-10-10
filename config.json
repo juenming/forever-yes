@@ -1,6 +1,40 @@
 {
-  "topName": "Person 1",
-  "bottomName": "Person 2",
-  "heart": "❤",
-  "loveLabel": "Person 1 loves Person 2"
+  "siteTitle": "For My Favorite Person",
+  "pages": [
+    {
+      "label": "Page 1 of 3",
+      "question": "Will you go on a date with me?",
+      "description": "I can plan the snacks, playlist, and awkwardly perfect conversation.",
+      "yes": "Yes",
+      "no": "No"
+    },
+    {
+      "label": "Page 2 of 3",
+      "question": "Will you marry me?",
+      "description": "I am very serious about building a beautiful life with you.",
+      "yes": "Yes",
+      "no": "No"
+    },
+    {
+      "label": "Final page",
+      "question": "Will you love me forever?",
+      "description": "If yes, press the obvious choice. If no... the page may disagree.",
+      "yes": "Yes, forever",
+      "no": "No"
+    }
+  ],
+  "finale": {
+    "label": "Approved outcome",
+    "title": "You just made me the luckiest person alive.",
+    "description": "Every version of my future looks brighter, softer, and sweeter with you in it.",
+    "topName": "Person 1",
+    "bottomName": "Person 2",
+    "heart": "❤"
+  },
+  "interactions": {
+    "finalNoAfterTwoAttempts": "Still no?",
+    "finalNoAfterFourAttempts": "Okay, maybe yes",
+    "finalYesAfterFourAttempts": "Yes, absolutely forever",
+    "finalYesWhenNoClicked": "You meant yes"
+  }
 }
